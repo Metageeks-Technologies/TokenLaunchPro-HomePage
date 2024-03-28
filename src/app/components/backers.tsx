@@ -5,8 +5,7 @@ const backers = () => {
     <div>
       <div className="flex mt-28 justify-center items-center">
         <div className="text-5xl  leading-[80px] max-md:mt-10">
-        <span className="">Our </span>
-        <span className="text-violet-600 ">Backers</span>
+        <h1>Our <span className="text-violet-600 ">Backers</span></h1>
         </div>
       </div>
 

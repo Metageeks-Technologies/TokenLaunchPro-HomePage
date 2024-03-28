@@ -8,8 +8,8 @@ const theory = () => {
         <div className="flex flex-col w-[59%] max-md:ml-0 max-md:w-full">
           <div className="flex flex-col px-5 mt-1 max-md:mt-10 max-md:max-w-full">
             <div className="text-5xl  leading-[68px] max-md:max-w-full">
-              Know more about{" "} <br />
-              <span className="text-lime-300">Tokenlunch,pro</span>
+             <h1> Know more about{" "} <br />
+              <span className="text-lime-300">Tokenlunch,pro</span></h1>
             </div>
             <div className="mt-7 text-sm leading-4 text-white max-md:max-w-full">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

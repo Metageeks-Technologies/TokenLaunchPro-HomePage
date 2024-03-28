@@ -5,7 +5,7 @@ const features = () => {
     <div>
       <div className="flex mt-56 justify-center items-center">
         <div className="text-5xl  leading-[80px] max-md:mt-10">
-          Our <span className="text-violet-600">Features</span>
+         <h1> Our <span className="text-violet-600">Features</span></h1>
         </div>
       </div>
 
@@ -22,7 +22,7 @@ const features = () => {
               <div className="flex flex-col grow items-center pt-4 pb-9 cursor-pointer border border-solid border-white hover:bg-zinc-800 hover:text-white hover:text-bold border-opacity-10 max-md:mt-5">
                 <div className="shrink-0  bg-white h-[3px] w-[38px]" />
                 <div className="mt-1.5 text-xl  tracking-wide text-center text-white">
-                  01.
+                 <h1> 01.</h1>
                 </div>
                 <div className="flex flex-col self-stretch px-4 mt-7">
                   <div className="flex flex-col justify-center px-12 py-16 bg-zinc-900 max-md:px-5">
@@ -33,7 +33,9 @@ const features = () => {
                     />
                   </div>
                   <div className="mt-5 text-2xl leading-4 text-white">
-                    <button className='hover hover:text-white hover:font-bold'>Web3 Innovation</button>
+                    <button className='hover hover:text-white hover:font-bold'>
+                      <h1>Web3 Innovation</h1>
+                      </button>
                     
                   </div>
                   <div className="mt-6 text-xs leading-5 text-white text-opacity-30">
@@ -47,7 +49,7 @@ const features = () => {
               <div className="flex flex-col grow items-center pt-4 pb-10 border border-solid hover:bg-zinc-800 border-white border-opacity-10 max-md:mt-5">
                 <div className="shrink-0 bg-white h-[3px] w-[38px]" />
                 <div className="mt-1.5 text-xl tracking-wide text-center text-white">
-                  02.
+                 <h1> 02.</h1>
                 </div>
                 <div className="flex flex-col self-stretch px-4 mt-7">
                   <div className="flex flex-col justify-center px-12 py-16 bg-zinc-900 max-md:px-5">
@@ -58,7 +60,9 @@ const features = () => {
                     />
                   </div>
                   <div className="mt-5 text-2xl leading-4 text-white">
-                  <button className='hover hover:text-white hover:font-bold'>Launchpad</button>
+                  <button className='hover hover:text-white hover:font-bold'>
+                    <h1>Launchpad</h1>
+                    </button>
                   </div>
                   <div className="mt-5 text-xs leading-5 text-white text-opacity-30">
                     Our next generation launchpad that has successfully funded more
@@ -71,7 +75,7 @@ const features = () => {
               <div className="flex flex-col grow items-center pt-4 pb-9 border border-solid hover:bg-zinc-800 border-white border-opacity-10 max-md:mt-5">
                 <div className="shrink-0 bg-white h-[3px] w-[38px]" />
                 <div className="mt-1.5 text-xl tracking-wide text-center text-white">
-                  03.
+                  <h1>03.</h1>
                 </div>
                 <div className="flex flex-col self-stretch px-4 mt-7">
                   <div className="flex flex-col justify-center px-8 py-14 bg-zinc-900 max-md:px-5">
@@ -82,7 +86,9 @@ const features = () => {
                     />
                   </div>
                   <div className="mt-5 text-2xl leading-4 text-white">
-                    <button className='hover hover:text-white hover:font-bold'>Incubator</button>
+                    <button className='hover hover:text-white hover:font-bold'>
+                      <h1>Incubator</h1>
+                      </button>
                   </div>
                   <div className="mt-6 text-xs leading-5 text-white text-opacity-30">
                     A carefully selected portfolio of projects that we treat as our
@@ -102,7 +108,7 @@ const features = () => {
               <div className="flex flex-col grow items-center pt-4 pb-9 border border-solid hover:bg-zinc-800 border-white border-opacity-10 max-md:mt-5">
                 <div className="shrink-0 bg-white h-[3px] w-[38px]" />
                 <div className="mt-1.5 text-xl tracking-wide text-center text-white">
-                  04.
+                  <h1>04.</h1>
                 </div>
                 <div className="flex flex-col self-stretch px-4 mt-7">
                   <div className="flex flex-col justify-center px-10 py-16 bg-zinc-900 max-md:px-5">
@@ -113,7 +119,9 @@ const features = () => {
                     />
                   </div>
                   <div className="mt-5 text-2xl leading-4 text-white">
-                   <button className='hover hover:text-white hover:font-bold'>Fundraising</button> 
+                   <button className='hover hover:text-white hover:font-bold'>
+                    <h1>Fundraising</h1>
+                    </button> 
                   </div>
                   <div className="mt-5 text-xs leading-5 text-white text-opacity-30">
                     supporting all partners with fundraising support inclusive of
@@ -126,7 +134,7 @@ const features = () => {
               <div className="flex flex-col grow items-center pt-4 pb-9 border border-solid hover:bg-zinc-800 border-white border-opacity-10 max-md:mt-5">
                 <div className="shrink-0 bg-white h-[3px] w-[38px]" />
                 <div className="mt-1.5 text-xl tracking-wide text-center text-white">
-                  05.
+                  <h1>05.</h1>
                 </div>
                 <div className="flex flex-col self-stretch px-4 mt-7">
                   <div className="flex flex-col justify-center px-10 py-16 bg-zinc-900 max-md:px-5">
@@ -137,7 +145,9 @@ const features = () => {
                     />
                   </div>
                   <div className="mt-5 text-2xl leading-4 text-white">
-                   <button className='hover hover:text-white hover:font-bold'> Partnerships</button> 
+                   <button className='hover hover:text-white hover:font-bold'>
+                    <h1> Partnerships</h1>
+                    </button> 
                   </div>
                   <div className="mt-5 text-xs leading-5 text-white text-opacity-30">
                     Intorducation of critical partners such as CEX, layer 1 or 2,
@@ -151,7 +161,7 @@ const features = () => {
               <div className="flex flex-col grow items-center py-5 border border-solid hover:bg-zinc-800 border-white border-opacity-10 max-md:mt-5">
                 <div className="shrink-0 bg-white h-[3px] w-[38px]" />
                 <div className="mt-1.5 text-xl tracking-wide text-center text-white">
-                  06.
+                  <h1>06.</h1>
                 </div>
                 <div className="flex flex-col self-stretch px-4 mt-7">
                   <div className="flex flex-col justify-center px-8 py-14 bg-zinc-900 max-md:px-5">
@@ -162,7 +172,9 @@ const features = () => {
                     />
                   </div>
                   <div className="mt-5 text-2xl leading-4 text-white">
-                   <button className='hover hover:text-white hover:font-bold'>Events</button> 
+                   <button className='hover hover:text-white hover:font-bold'>
+                    <h1>Events</h1>
+                    </button> 
                   </div>
                   <div className="mt-6 text-xs leading-5 text-white text-opacity-30">
                     We organize & Partner with some of the biggest web3 events to

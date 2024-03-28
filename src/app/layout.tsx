@@ -20,6 +20,13 @@ export default function RootLayout({
     <html lang="en">
       
       <body className={inter.className}>
+      <link
+            rel="stylesheet"
+            href="/fonts/your-font.otf"
+            type="font/otf"
+            as="font"
+            crossOrigin="anonymous"
+          />
         <div className="p-8"><Header /></div>
         {children}
         <div><Footer /></div>

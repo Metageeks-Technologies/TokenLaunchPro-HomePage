@@ -8,18 +8,18 @@ const empowering = () => {
         <div className="flex flex-col w-[60%] max-md:ml-0 max-md:w-full">
           <div className="flex flex-col px-5 mt-4 text-xs max-md:mt-10 max-md:max-w-full">
             <div className="text-6xl  leading-[80px] max-md:max-w-full max-md:text-4xl max-md:leading-[62px]">
-              Empowering <span className="text-violet-600"> <br />Blockchain </span> <br />
-              Innovations
+             <h1> Empowering <span className="text-violet-600"> <br />Blockchain </span> <br />
+              Innovations</h1>
             </div>
             <div className="mt-11 text-white text-opacity-30 max-md:mt-10 max-md:max-w-full">
               Choose Your Path: Curated project launches or community-powered
               sales
             </div>
             <div className="flex gap-5 mt-16 text-white max-md:flex-wrap max-md:mt-10">
-              <a href="/launchpad" className="flex items-center justify-center px-14 py-5 font-bold border border-solid border-white border-opacity-10 max-md:px-5 hover:bg-purple-700">
+              <a href="/launchpad" className="flex items-center justify-center px-14 py-5 font-bold border border-solid border-white border-opacity-10 max-md:px-5 bg-purple-700">
                 <button>Lunchpad</button>
               </a>
-              <a href="/find-gems" className="flex items-center justify-center px-14 py-5 font-bold border border-solid border-white border-opacity-10 max-md:px-5 hover:bg-purple-700">
+              <a href="/find-gems" className="flex items-center justify-center px-14 py-5 font-bold border border-solid border-white border-opacity-10 max-md:px-5 bg-purple-700">
                 <button>Find the Gems</button>
               </a>
             </div>
@@ -41,11 +41,12 @@ const empowering = () => {
               />
             </div>
             <div className="flex flex-col grow shrink-0 basis-0 w-fit max-md:max-w-full">
-              <img
+              {/* <img
                 loading="lazy"
                 srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/d97fd6f6b26871bea2bacadbbd91b30be494058199bbcb782bcacd7883e9ac91?apiKey=fc314cf36d364dbdb6a0cce0fe9d0082&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/d97fd6f6b26871bea2bacadbbd91b30be494058199bbcb782bcacd7883e9ac91?apiKey=fc314cf36d364dbdb6a0cce0fe9d0082&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d97fd6f6b26871bea2bacadbbd91b30be494058199bbcb782bcacd7883e9ac91?apiKey=fc314cf36d364dbdb6a0cce0fe9d0082&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/d97fd6f6b26871bea2bacadbbd91b30be494058199bbcb782bcacd7883e9ac91?apiKey=fc314cf36d364dbdb6a0cce0fe9d0082&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/d97fd6f6b26871bea2bacadbbd91b30be494058199bbcb782bcacd7883e9ac91?apiKey=fc314cf36d364dbdb6a0cce0fe9d0082&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d97fd6f6b26871bea2bacadbbd91b30be494058199bbcb782bcacd7883e9ac91?apiKey=fc314cf36d364dbdb6a0cce0fe9d0082&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/d97fd6f6b26871bea2bacadbbd91b30be494058199bbcb782bcacd7883e9ac91?apiKey=fc314cf36d364dbdb6a0cce0fe9d0082&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/d97fd6f6b26871bea2bacadbbd91b30be494058199bbcb782bcacd7883e9ac91?apiKey=fc314cf36d364dbdb6a0cce0fe9d0082&"
                 className="w-full aspect-[1.02] max-md:max-w-full"
-              />
+              /> */}
+              <img src="/rocket.png" alt="" />
               <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/34fc413ed0fe451f5df7a10b458fb52ca6e1b69e9985e3ae42d832a776009253?apiKey=fc314cf36d364dbdb6a0cce0fe9d0082&"

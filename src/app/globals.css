@@ -32,3 +32,12 @@ body {
   }
 }
 
+@font-face {
+  font-family: 'Republica';
+  src: url('/fonts/Republica Minor 2.0.otf') format('opentype');
+  /* Add other font formats if needed */
+}
+
+h1 {
+  font-family: 'Republica', sans-serif; /* Use YourFontName for headings */
+}

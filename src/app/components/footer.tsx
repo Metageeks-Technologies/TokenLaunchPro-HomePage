@@ -38,28 +38,28 @@ const footer = () => {
         </div>
         <div className="flex flex-col mt-2 text-sm text-white whitespace-nowrap">
         
-          <div className="text-xl">Discover</div>
+          <div className="text-xl"><h1>Discover</h1></div>
           <a href='/' className="mt-7 cursor-pointer hover:text-white hover:font-bold">Artists</a>
           <a href='/' className="mt-8 cursor-pointer hover:text-white hover:font-bold">Collections</a>
           <a href='/' className="mt-8 cursor-pointer hover:text-white hover:font-bold">Trend</a>
         </div>
         <div className="flex flex-col mt-2 text-sm text-white whitespace-nowrap">
-          <div className="text-xl">Order</div>
+          <div className="text-xl"><h1>Order</h1></div>
           <a href='/' className="mt-7 cursor-pointer hover:text-white hover:font-bold">Robots</a>
           <a href='/' className="mt-8 cursor-pointer hover:text-white hover:font-bold">Arts</a>
         </div>
         <div className="flex flex-col mt-2 text-sm text-white">
-          <div className="text-xl">Generate</div>
+          <div className="text-xl"><h1>Generate</h1></div>
           <a href='/' className="mt-7 cursor-pointer hover:text-white hover:font-bold">Robot</a>
           <a href='/' className="mt-8 cursor-pointer hover:text-white hover:font-bold">Face Potrait</a>
           <a href='/' className="mt-8 cursor-pointer hover:text-white hover:font-bold">Splicer</a>
         </div>
-        <div className="flex flex-col mt-2 text-xs font-bold text-lime-300">
-          <div className="text-xl text-white">Modes</div>
-          <a href='/'className="justify-center px-9 py-5 mt-5 border border-lime-300 border-solid max-md:px-5 cursor-pointer hover:bg-lime-400 hover:text-black">
+        <div className="flex flex-col mt-2 text-xs  ">
+          <div className="text-xl"><h1>Modes</h1></div>
+          <a href='/'className="justify-center px-9 py-5 mt-5 text-lime-300 border border-lime-300 border-solid max-md:px-5 cursor-pointer hover:bg-lime-400 hover:text-black">
             Alpha Mode
           </a>
-          <a href='/' className="justify-center px-9 py-5 mt-3 border border-lime-300 border-solid max-md:px-5 cursor-pointer hover:bg-lime-400 hover:text-black">
+          <a href='/' className="justify-center px-9 py-5 mt-3 text-lime-300 border border-lime-300 border-solid max-md:px-5 cursor-pointer hover:bg-lime-400 hover:text-black">
             Degan Mode
           </a>
         </div>
