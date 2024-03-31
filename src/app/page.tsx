@@ -18,11 +18,11 @@ export default function Home() {
   return (
     <div>
      <div >
-      {/* <div className="p-8">
+      <div className="">
         <Header />
-      </div> */}
+      </div>
 
-      <div className="p-8">
+      <div className="">
         <Empowering />
       </div>
       
@@ -31,11 +31,11 @@ export default function Home() {
         <Mainlanding/>
       </div>
 
-      <div className="p-8">
+      <div className="p-4">
         <Ads />
       </div>
 
-      <div className="p-8">
+      <div className="">
         <Theory />
       </div>
 
@@ -67,9 +67,9 @@ export default function Home() {
         <Team />
       </div>
 
-      {/* <div>
+      <div>
         <Footer />
-      </div> */}
+      </div>
      </div> 
     </div>
   );

@@ -27,9 +27,9 @@ export default function RootLayout({
             as="font"
             crossOrigin="anonymous"
           />
-        <div className="p-8"><Header /></div>
+        {/* <div className="p-8"><Header /></div> */}
         {children}
-        <div><Footer /></div>
+        {/* <div><Footer /></div> */}
       </body>
       
     </html>
