@@ -1,6 +1,6 @@
 import React from 'react'
 
-const team = () => {
+const Team = () => {
   return (
     <div className='mb-56'>
       <div className="flex mt-56 justify-center items-center">
@@ -103,4 +103,4 @@ const team = () => {
   )
 }
 
-export default team
+export default Team

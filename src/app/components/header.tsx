@@ -17,7 +17,7 @@ const Header = () => {
           alt="Header Image"
         />
         </button></a>
-        <div className='flex gap-2 justify-start '>
+        <div className='flex gap-2 justify-start md:hidden'>
         <a href="/"><button>
         <img
           loading="lazy"

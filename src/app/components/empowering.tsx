@@ -68,7 +68,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 
-const empowering = () => {
+const Empowering = () => {
   
   const [isMobile, setIsMobile] = useState(false);
 
@@ -189,4 +189,4 @@ const Mobileempowering = () => {
   );
 }
 
-export default empowering;
+export default Empowering;

@@ -57,7 +57,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 
-const mainlanding = () => {
+const Mainlanding = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -87,7 +87,7 @@ const Desktopmainlanding = () => {
   return (
     <div>
           <div>
-      <div className="self-stretch px-20 py-9 mt-24 w-full bg-violet-600 max-md:px-5 max-md:mt-10 max-md:max-w-full">
+      <div className="self-stretch  py-9 ml-0 w-full mt-24  bg-violet-600 max-md:px-5 max-md:mt-10 max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col max-md:gap-0">
           <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
             <div className="flex grow gap-3 items-center text-xl font-extrabold text-white max-md:flex-wrap max-md:mt-10">
@@ -138,8 +138,8 @@ const Desktopmainlanding = () => {
 
 const Mobilemmainlanding = () => {
   return (
-    <div>
-      <div className="flex gap-1.5 justify-center w-full items-start self-stretch px-3.5 py-5 mt-11 text-xs font-extrabold text-white bg-violet-600">
+    
+      <div className="flex gap-1.5 justify-center w-full items-start self-stretch py-5 mt-11 text-xs font-extrabold text-white bg-violet-600">
       <img
         loading="lazy"
         src="https://cdn.builder.io/api/v1/image/assets/TEMP/f6c4e9dedd7e79823708f07c254531e928edf1ff715667589281b7f8ad30442d?apiKey=fc314cf36d364dbdb6a0cce0fe9d0082&"
@@ -157,8 +157,8 @@ const Mobilemmainlanding = () => {
         className="shrink-0 mt-2 max-w-full aspect-[6.67] fill-[linear-gradient(90deg,#FFF_0%,rgba(255,255,255,0.00)_100%)] w-[124px]"
       />
     </div>
-    </div>
+    
   );
 }
 
-export default mainlanding;
+export default Mainlanding;

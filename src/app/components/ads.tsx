@@ -81,7 +81,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 
-const ads = () => {
+const Ads = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -237,4 +237,4 @@ const Mobileads = () => {
   );
 }
 
-export default ads;
+export default Ads;

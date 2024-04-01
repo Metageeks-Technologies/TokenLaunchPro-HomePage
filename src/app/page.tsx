@@ -1,17 +1,17 @@
 import Image from "next/image";
-import Header from '../app/components/header'
-import Empowering from "./components/empowering";
-import Mainlanding from "./components/mainlanding";
-import Ads from "./components/ads";
-import Theory from "./components/theory";
-import Features from "./components/features";
-import Works from "./components/works";
-import Imageline from "./components/imageline";
-import Backers from "./components/backers";
-import FAQ from "./components/faq";
-import Advisor from "./components/advisor";
-import Team from "./components/team";
-import Footer from "./components/footer";
+import Header from './components/Header'
+import Empowering from "./components/Empowering";
+import Mainlanding from "./components/Mainlanding";
+import Ads from "./components/Ads";
+import Theory from "./components/Theory";
+import Features from "./components/Features";
+import Works from "./components/Works";
+import Imageline from "./components/Imageline";
+import Backers from "./components/Backers";
+import FAQ from "./components/Faq";
+import Advisor from "./components/Advisor";
+import Team1 from "./components/Team";
+import Footer from "./components/Footer";
 
 
 export default function Home() {
@@ -64,7 +64,7 @@ export default function Home() {
       </div>
 
       <div>
-        <Team />
+        <Team1 />
       </div>
 
       <div>
