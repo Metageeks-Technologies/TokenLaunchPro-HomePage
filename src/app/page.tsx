@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Header from './components/Header'
-import Empowering from "./components/Empowering";
+import Head from './components/Header'
+import Empow from "./components/Empowering";
 import Mainlanding from "./components/Mainlanding";
 import Ads from "./components/Ads";
 import Theory from "./components/Theory";
@@ -19,11 +19,11 @@ export default function Home() {
     <div>
      <div >
       <div className="">
-        <Header />
+        <Head />
       </div>
 
       <div className="">
-        <Empowering />
+        <Empow />
       </div>
       
 

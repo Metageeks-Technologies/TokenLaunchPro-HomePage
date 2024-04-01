@@ -74,7 +74,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 
-const footer = () => {
+const Footer = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -233,4 +233,4 @@ const Mobilefooter = () => {
   );
 }
 
-export default footer;
+export default Footer;

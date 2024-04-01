@@ -228,7 +228,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 
 
-const advisor = () => {
+const Advisor = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -613,4 +613,4 @@ const Mobileadvisor = () => {
   );
 }
 
-export default advisor;
+export default Advisor;

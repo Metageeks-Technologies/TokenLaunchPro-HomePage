@@ -190,7 +190,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 
-const works = () => {
+const Works = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -560,4 +560,4 @@ const Mobileworks = () => {
   );
 }
 
-export default works;
+export default Works;

@@ -80,7 +80,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 
-const faq = () => {
+const Faq = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -241,4 +241,4 @@ const Mobilefaq = () => {
   );
 }
 
-export default faq;
+export default Faq;

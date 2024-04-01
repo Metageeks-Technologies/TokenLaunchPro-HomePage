@@ -34,7 +34,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 
-const backers = () => {
+const Backers = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -99,4 +99,4 @@ const Mobilebackers = () => {
   );
 }
 
-export default backers;
+export default Backers;

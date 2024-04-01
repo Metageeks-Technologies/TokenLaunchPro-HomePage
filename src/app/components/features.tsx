@@ -202,7 +202,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 
-const features = () => {
+const Features = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -517,4 +517,4 @@ const Mobilefeatures = () => {
   );
 }
 
-export default features;
+export default Features;

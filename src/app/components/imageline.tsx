@@ -47,7 +47,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 
-const imageline = () => {
+const Imageline = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -146,4 +146,4 @@ const Mobileimageline = () => {
   );
 }
 
-export default imageline;
+export default Imageline;

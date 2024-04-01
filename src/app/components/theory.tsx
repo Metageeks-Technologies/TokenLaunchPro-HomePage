@@ -86,7 +86,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 
-const theory = () => {
+const Theory = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -240,4 +240,4 @@ const Mobiletheory = () => {
   );
 }
 
-export default theory;
+export default Theory;
