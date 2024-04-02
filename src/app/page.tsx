@@ -1,6 +1,6 @@
 import Image from "next/image";
 // import Head from './components/Header'
-import Head from '@/app/components/Header'
+import Header from '@/app/components/Header'
 // import Empow from "./components/Empowering";
 import Empow from '@/app/components/Empowering'
 // import Mainlanding from "./components/Mainlanding";
@@ -33,7 +33,7 @@ export default function Home() {
     <div>
      <div >
       <div className="">
-        <Head />
+        <Header />
       </div>
 
       <div className="">
