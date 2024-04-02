@@ -18,8 +18,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      
-      <body className={inter.className}>
       <link
             rel="stylesheet"
             href="/fonts/your-font.otf"
@@ -27,6 +25,9 @@ export default function RootLayout({
             as="font"
             crossOrigin="anonymous"
           />
+      
+      <body className={inter.className}>
+      
         {/* <div className="p-8"><Header /></div> */}
         {children}
         {/* <div><Footer /></div> */}
