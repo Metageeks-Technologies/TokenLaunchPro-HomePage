@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 // import Head from './components/Header'
 import Head from '@/app/components/Header'
 // import Empow from "./components/Empowering";
