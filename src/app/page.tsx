@@ -5,7 +5,8 @@ import Mainlanding from "./components/Mainlanding";
 import Ads from "./components/Ads";
 import Theory from "./components/Theory";
 import Features from "./components/Features";
-import Works from "./components/Works";
+import Works from "@/app/components/Works"
+// import Works from "./components/Works";
 import Imageline from "./components/Imageline";
 import Backers from "./components/Backers";
 import FAQ from "./components/Faq";
