@@ -35,9 +35,21 @@ body {
 @font-face {
   font-family: 'Republica';
   src: url('/fonts/Republica Minor 2.0.otf') format('opentype');
-  /* Add other font formats if needed */
 }
 
 h1 {
   font-family: 'Republica', sans-serif; /* Use YourFontName for headings */
 }
+
+
+@font-face {
+  font-family: 'ProFontWindows';
+  src: url('/fonts/ProFont.ttf') format('opentype');
+  font-style: normal;
+  font-display: swap;
+}
+
+.myfont {
+  font-family: 'ProFontWindows', sans-serif;
+}
+

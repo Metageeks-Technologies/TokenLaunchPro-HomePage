@@ -18,13 +18,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <link
+      {/* <link
             rel="stylesheet"
-            href="/fonts/your-font.otf"
+            href="/fonts/Republica Minor 2.0.otf"
             type="font/otf"
             as="font"
             crossOrigin="anonymous"
-          />
+          /> */}
       
       <body className={inter.className}>
       

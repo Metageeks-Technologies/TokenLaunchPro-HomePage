@@ -9,6 +9,7 @@ const config: Config = {
   theme: {
     fontFamily: {
       'republica': ['Republica 2.0', 'sans-serif'],
+      'profont': ['ProFontWindows', 'sans-serif'],
     },
     extend: {
       backgroundImage: {
